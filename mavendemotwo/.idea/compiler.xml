@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="maven-two-service" />
+        <module name="maven-two-web" />
+        <module name="maven_two_dao" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="maven-demotwo" target="1.8" />
+      <module name="maven-two-service" target="1.8" />
+      <module name="maven-two-web" target="1.8" />
+      <module name="maven_two_dao" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
